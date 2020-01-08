@@ -1,0 +1,80 @@
+0.389048
+*** Error in `./prefixsum': free(): invalid next size (fast): 0x0000000001522870 ***
+======= Backtrace: =========
+/lib64/libc.so.6(+0x81489)[0x2abfbfa83489]
+./prefixsum[0x401080]
+/lib64/libc.so.6(__libc_start_main+0xf5)[0x2abfbfa243d5]
+./prefixsum[0x401147]
+======= Memory map: ========
+00400000-00402000 r-xp 00000000 00:2e 210737345077                       /users/sgupta38/assignment4/prefixsum/prefixsum
+00602000-00603000 r--p 00002000 00:2e 210737345077                       /users/sgupta38/assignment4/prefixsum/prefixsum
+00603000-00604000 rw-p 00003000 00:2e 210737345077                       /users/sgupta38/assignment4/prefixsum/prefixsum
+0151f000-01540000 rw-p 00000000 00:00 0                                  [heap]
+2abfbeb7d000-2abfbeb9f000 r-xp 00000000 08:02 264641                     /usr/lib64/ld-2.17.so
+2abfbeb9f000-2abfbeba2000 rw-p 00000000 00:00 0 
+2abfbebc6000-2abfbebcc000 rw-p 00000000 00:00 0 
+2abfbed9e000-2abfbed9f000 r--p 00021000 08:02 264641                     /usr/lib64/ld-2.17.so
+2abfbed9f000-2abfbeda0000 rw-p 00022000 08:02 264641                     /usr/lib64/ld-2.17.so
+2abfbeda0000-2abfbeda1000 rw-p 00000000 00:00 0 
+2abfbeda1000-2abfbee8a000 r-xp 00000000 08:02 264692                     /usr/lib64/libstdc++.so.6.0.19
+2abfbee8a000-2abfbf089000 ---p 000e9000 08:02 264692                     /usr/lib64/libstdc++.so.6.0.19
+2abfbf089000-2abfbf091000 r--p 000e8000 08:02 264692                     /usr/lib64/libstdc++.so.6.0.19
+2abfbf091000-2abfbf093000 rw-p 000f0000 08:02 264692                     /usr/lib64/libstdc++.so.6.0.19
+2abfbf093000-2abfbf0a8000 rw-p 00000000 00:00 0 
+2abfbf0a8000-2abfbf1a9000 r-xp 00000000 08:02 264656                     /usr/lib64/libm-2.17.so
+2abfbf1a9000-2abfbf3a8000 ---p 00101000 08:02 264656                     /usr/lib64/libm-2.17.so
+2abfbf3a8000-2abfbf3a9000 r--p 00100000 08:02 264656                     /usr/lib64/libm-2.17.so
+2abfbf3a9000-2abfbf3aa000 rw-p 00101000 08:02 264656                     /usr/lib64/libm-2.17.so
+2abfbf3aa000-2abfbf3cf000 r-xp 00000000 08:02 265173                     /usr/lib64/libgomp.so.1.0.0
+2abfbf3cf000-2abfbf5ce000 ---p 00025000 08:02 265173                     /usr/lib64/libgomp.so.1.0.0
+2abfbf5ce000-2abfbf5cf000 r--p 00024000 08:02 265173                     /usr/lib64/libgomp.so.1.0.0
+2abfbf5cf000-2abfbf5d0000 rw-p 00025000 08:02 265173                     /usr/lib64/libgomp.so.1.0.0
+2abfbf5d0000-2abfbf5e5000 r-xp 00000000 08:02 262163                     /usr/lib64/libgcc_s-4.8.5-20150702.so.1
+2abfbf5e5000-2abfbf7e4000 ---p 00015000 08:02 262163                     /usr/lib64/libgcc_s-4.8.5-20150702.so.1
+2abfbf7e4000-2abfbf7e5000 r--p 00014000 08:02 262163                     /usr/lib64/libgcc_s-4.8.5-20150702.so.1
+2abfbf7e5000-2abfbf7e6000 rw-p 00015000 08:02 262163                     /usr/lib64/libgcc_s-4.8.5-20150702.so.1
+2abfbf7e6000-2abfbf7fd000 r-xp 00000000 08:02 264674                     /usr/lib64/libpthread-2.17.so
+2abfbf7fd000-2abfbf9fc000 ---p 00017000 08:02 264674                     /usr/lib64/libpthread-2.17.so
+2abfbf9fc000-2abfbf9fd000 r--p 00016000 08:02 264674                     /usr/lib64/libpthread-2.17.so
+2abfbf9fd000-2abfbf9fe000 rw-p 00017000 08:02 264674                     /usr/lib64/libpthread-2.17.so
+2abfbf9fe000-2abfbfa02000 rw-p 00000000 00:00 0 
+2abfbfa02000-2abfbfbc4000 r-xp 00000000 08:02 264648                     /usr/lib64/libc-2.17.so
+2abfbfbc4000-2abfbfdc4000 ---p 001c2000 08:02 264648                     /usr/lib64/libc-2.17.so
+2abfbfdc4000-2abfbfdc8000 r--p 001c2000 08:02 264648                     /usr/lib64/libc-2.17.so
+2abfbfdc8000-2abfbfdca000 rw-p 001c6000 08:02 264648                     /usr/lib64/libc-2.17.so
+2abfbfdca000-2abfbfdcf000 rw-p 00000000 00:00 0 
+2abfbfdcf000-2abfbfdd0000 ---p 00000000 00:00 0 
+2abfbfdd0000-2abfbffd0000 rw-p 00000000 00:00 0 
+2abfbffd0000-2abfbffd1000 ---p 00000000 00:00 0 
+2abfbffd1000-2abfc01d1000 rw-p 00000000 00:00 0 
+2abfc01d1000-2abfc01d2000 ---p 00000000 00:00 0 
+2abfc01d2000-2abfc03d2000 rw-p 00000000 00:00 0 
+2abfc03d2000-2abfc03d3000 ---p 00000000 00:00 0 
+2abfc03d3000-2abfc05d3000 rw-p 00000000 00:00 0 
+2abfc05d3000-2abfc05d4000 ---p 00000000 00:00 0 
+2abfc05d4000-2abfc07d4000 rw-p 00000000 00:00 0 
+2abfc07d4000-2abfc07d5000 ---p 00000000 00:00 0 
+2abfc07d5000-2abfc09d5000 rw-p 00000000 00:00 0 
+2abfc09d5000-2abfc09d6000 ---p 00000000 00:00 0 
+2abfc09d6000-2abfc0bd6000 rw-p 00000000 00:00 0 
+2abfc0bd6000-2abfc0bd7000 ---p 00000000 00:00 0 
+2abfc0bd7000-2abfc0dd7000 rw-p 00000000 00:00 0 
+2abfc0dd7000-2abfc0dd8000 ---p 00000000 00:00 0 
+2abfc0dd8000-2abfc0fd8000 rw-p 00000000 00:00 0 
+2abfc0fd8000-2abfc0fd9000 ---p 00000000 00:00 0 
+2abfc0fd9000-2abfc11d9000 rw-p 00000000 00:00 0 
+2abfc11d9000-2abfc11da000 ---p 00000000 00:00 0 
+2abfc11da000-2abfc13da000 rw-p 00000000 00:00 0 
+2abfc13da000-2abfc13db000 ---p 00000000 00:00 0 
+2abfc13db000-2abfc15db000 rw-p 00000000 00:00 0 
+2abfc15db000-2abfc15dc000 ---p 00000000 00:00 0 
+2abfc15dc000-2abfc17dc000 rw-p 00000000 00:00 0 
+2abfc17dc000-2abfc17dd000 ---p 00000000 00:00 0 
+2abfc17dd000-2abfc19dd000 rw-p 00000000 00:00 0 
+2abfc19dd000-2abfc19de000 ---p 00000000 00:00 0 
+2abfc19de000-2abfc1bde000 rw-p 00000000 00:00 0 
+2abfc4000000-2abfc4021000 rw-p 00000000 00:00 0 
+2abfc4021000-2abfc8000000 ---p 00000000 00:00 0 
+7ffebca6c000-7ffebca8d000 rw-p 00000000 00:00 0                          [stack]
+7ffebcb0d000-7ffebcb0f000 r-xp 00000000 00:00 0                          [vdso]
+ffffffffff600000-ffffffffff601000 r-xp 00000000 00:00 0                  [vsyscall]
